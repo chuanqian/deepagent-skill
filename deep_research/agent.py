@@ -62,7 +62,7 @@ research_sub_agent = {
 model = init_chat_model(
     model=os.getenv("MODEL", 'deepseek-chat'), 
     model_provider=os.getenv("MODEL_PROVIDER", 'deepseek'),
-    api_key=os.getenv("API_KEY", 'sk-a813a64e4fac4dc5aadbf370a1c371f5'),
+    api_key=os.getenv("API_KEY", "111"),
     temperature=0.0
 )
 
